@@ -1,0 +1,94 @@
+:root {
+  --BG: #222831;
+  --addition: #393e46;
+  --fillet: #00adb5;
+  --font: #eeeeee;
+}
+
+body {
+  background-color: var(--BG);
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h2 span {
+  color: var(--fillet);
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--fillet);
+  color: var(--font);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: var(--font);
+  color: var(--addition);
+}
+
+.tool-detail {
+  text-align: center;
+  padding: 40px;
+  color: var(--font);
+}
+
+.container {
+  background-color: var(--addition);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.logo-web {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.nama-tools {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.tipe-tools {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.garis-horizontal {
+  margin: 20px 0;
+  border: 1px solid var(--font);
+}
+
+.deskripsi {
+  font-size: 16px;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--fillet);
+  color: var(--font);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: var(--font);
+  color: var(--addition);
+}
